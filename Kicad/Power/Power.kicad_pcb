@@ -38,6 +38,19 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "None")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
@@ -297,5 +310,22 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (segment (start 131.62 56.47) (end 131.68 56.41) (width 0.7) (layer "B.Cu") (net 1) (tstamp 5b6a8d92-8f02-4344-a7df-ac07f7a6431e))
+  (segment (start 132.62 60.96) (end 133.62 60.96) (width 0.7) (layer "B.Cu") (net 1) (tstamp 62009989-8103-49af-b226-a7bac174e878))
+  (segment (start 131.62 60.96) (end 131.62 56.47) (width 0.7) (layer "B.Cu") (net 1) (tstamp 81d7db25-c179-4d9d-b74b-6c074422c80f))
+  (segment (start 133.62 60.96) (end 134.62 60.96) (width 0.7) (layer "B.Cu") (net 1) (tstamp dd718582-fe3d-466c-b539-4fd2ee4cec5b))
+  (segment (start 131.62 60.96) (end 132.62 60.96) (width 0.7) (layer "B.Cu") (net 1) (tstamp ddaaab04-fca3-4052-9a26-35c7845fd694))
+  (segment (start 120.38 56.81) (end 120.78 56.41) (width 0.7) (layer "B.Cu") (net 2) (tstamp 67193e61-d6ec-495c-a7e9-03793b500be1))
+  (segment (start 119.38 60.96) (end 120.38 60.96) (width 0.7) (layer "B.Cu") (net 2) (tstamp 764e9b26-4057-4449-8217-56505e0f3401))
+  (segment (start 120.38 60.96) (end 120.38 56.81) (width 0.7) (layer "B.Cu") (net 2) (tstamp 8343fa38-8498-4902-a32d-1c52f3862967))
+  (segment (start 121.38 60.96) (end 120.38 60.96) (width 0.7) (layer "B.Cu") (net 2) (tstamp b710020c-0f3a-4776-a938-eddc58b26b95))
+  (segment (start 126.46 60.96) (end 126.46 56.64) (width 0.7) (layer "B.Cu") (net 3) (tstamp 345d0db5-afa8-4790-839b-293d8c7171b3))
+  (segment (start 128.46 60.96) (end 129.46 60.96) (width 0.7) (layer "B.Cu") (net 3) (tstamp 3b82d8e3-a040-434a-9991-6271f6273782))
+  (segment (start 126.46 56.64) (end 126.23 56.41) (width 0.7) (layer "B.Cu") (net 3) (tstamp 46f1fe2c-bc01-4b14-852f-f73c7cee1411))
+  (segment (start 126.46 60.96) (end 127.46 60.96) (width 0.7) (layer "B.Cu") (net 3) (tstamp 89cd789a-84c0-474b-9887-eaaa1a706f44))
+  (segment (start 124.46 60.96) (end 125.46 60.96) (width 0.7) (layer "B.Cu") (net 3) (tstamp 97087cbe-2d6b-4de6-8a95-e0f165d3bad4))
+  (segment (start 125.46 60.96) (end 126.46 60.96) (width 0.7) (layer "B.Cu") (net 3) (tstamp a578d721-17ff-4726-b495-f28c5276fca2))
+  (segment (start 127.46 60.96) (end 128.46 60.96) (width 0.7) (layer "B.Cu") (net 3) (tstamp a771c02c-8b53-42d8-99ed-0a81252d0009))
 
 )

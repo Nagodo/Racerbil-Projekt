@@ -447,6 +447,10 @@
     )
   )
 
+  (gr_text "MongoRacing" (at 139.7 88.9) (layer "B.Cu") (tstamp 2a4111b7-8149-4814-9344-3b8119cd75e4)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
+
   (segment (start 142.24 83.82) (end 146.05 83.82) (width 0.7) (layer "B.Cu") (net 1) (tstamp 5d2c038b-6646-4fcb-986f-765218b65ea0))
   (segment (start 142.24 86.36) (end 142.24 83.82) (width 0.7) (layer "B.Cu") (net 1) (tstamp a91b2e0e-b141-4814-b267-2fdc9c6a6658))
   (segment (start 134.62 86.36) (end 134.62 83.55) (width 0.7) (layer "B.Cu") (net 2) (tstamp fdc7e026-da66-4fc7-9082-2c74f60fcb90))

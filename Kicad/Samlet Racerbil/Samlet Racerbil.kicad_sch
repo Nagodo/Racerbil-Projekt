@@ -1240,7 +1240,7 @@
     (property "Reference" "Q?" (id 0) (at 133.35 46.9899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TIP120" (id 1) (at 133.35 49.5299 0)
+    (property "Value" "" (id 1) (at 133.35 49.5299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (id 2) (at 132.08 50.165 0)
@@ -1399,7 +1399,7 @@
       (reference "M?") (unit 1) (value "Motor_AC") (footprint "")
     )
     (path "/8fbfd03f-7055-40be-9db8-bb014db089a4"
-      (reference "Q?") (unit 1) (value "TIP120") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
+      (reference "Q?") (unit 1) (value "IRL1404") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/41d8c1d5-4b35-4e3a-ba04-bac7e10b12eb"
       (reference "R?") (unit 1) (value "LDR07") (footprint "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical")
